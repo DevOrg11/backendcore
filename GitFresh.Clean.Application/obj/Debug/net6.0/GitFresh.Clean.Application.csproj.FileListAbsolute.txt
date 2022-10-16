@@ -1,0 +1,15 @@
+C:\training\Clean-arch1\GitFresh.Clean.Application\bin\Debug\net6.0\GitFresh.Clean.Application.deps.json
+C:\training\Clean-arch1\GitFresh.Clean.Application\bin\Debug\net6.0\GitFresh.Clean.Application.dll
+C:\training\Clean-arch1\GitFresh.Clean.Application\bin\Debug\net6.0\GitFresh.Clean.Application.pdb
+C:\training\Clean-arch1\GitFresh.Clean.Application\bin\Debug\net6.0\GitFresh.Clean.Domain.dll
+C:\training\Clean-arch1\GitFresh.Clean.Application\bin\Debug\net6.0\GitFresh.Clean.Domain.pdb
+C:\training\Clean-arch1\GitFresh.Clean.Application\obj\Debug\net6.0\GitFresh.Clean.Application.csproj.AssemblyReference.cache
+C:\training\Clean-arch1\GitFresh.Clean.Application\obj\Debug\net6.0\GitFresh.Clean.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\training\Clean-arch1\GitFresh.Clean.Application\obj\Debug\net6.0\GitFresh.Clean.Application.AssemblyInfoInputs.cache
+C:\training\Clean-arch1\GitFresh.Clean.Application\obj\Debug\net6.0\GitFresh.Clean.Application.AssemblyInfo.cs
+C:\training\Clean-arch1\GitFresh.Clean.Application\obj\Debug\net6.0\GitFresh.Clean.Application.csproj.CoreCompileInputs.cache
+C:\training\Clean-arch1\GitFresh.Clean.Application\obj\Debug\net6.0\GitFresh.Clean.Application.csproj.CopyComplete
+C:\training\Clean-arch1\GitFresh.Clean.Application\obj\Debug\net6.0\GitFresh.Clean.Application.dll
+C:\training\Clean-arch1\GitFresh.Clean.Application\obj\Debug\net6.0\refint\GitFresh.Clean.Application.dll
+C:\training\Clean-arch1\GitFresh.Clean.Application\obj\Debug\net6.0\GitFresh.Clean.Application.pdb
+C:\training\Clean-arch1\GitFresh.Clean.Application\obj\Debug\net6.0\ref\GitFresh.Clean.Application.dll

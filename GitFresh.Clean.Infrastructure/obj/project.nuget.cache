@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "emf9YokkNUNGxQgiXfS7wP36ekgjGGFvgK5QZ6hJl3aNMzA4/01azjSft4H2viIzB/ovTYYdQta1K32d6GWLXw==",
+  "success": true,
+  "projectFilePath": "C:\\training\\Clean-arch1\\GitFresh.Clean.Infrastructure\\GitFresh.Clean.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+C:\training\Clean-arch1\GitFresh.Clean.Domain\bin\Debug\net6.0\GitFresh.Clean.Domain.deps.json
+C:\training\Clean-arch1\GitFresh.Clean.Domain\bin\Debug\net6.0\GitFresh.Clean.Domain.dll
+C:\training\Clean-arch1\GitFresh.Clean.Domain\bin\Debug\net6.0\GitFresh.Clean.Domain.pdb
+C:\training\Clean-arch1\GitFresh.Clean.Domain\obj\Debug\net6.0\GitFresh.Clean.Domain.csproj.AssemblyReference.cache
+C:\training\Clean-arch1\GitFresh.Clean.Domain\obj\Debug\net6.0\GitFresh.Clean.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\training\Clean-arch1\GitFresh.Clean.Domain\obj\Debug\net6.0\GitFresh.Clean.Domain.AssemblyInfoInputs.cache
+C:\training\Clean-arch1\GitFresh.Clean.Domain\obj\Debug\net6.0\GitFresh.Clean.Domain.AssemblyInfo.cs
+C:\training\Clean-arch1\GitFresh.Clean.Domain\obj\Debug\net6.0\GitFresh.Clean.Domain.csproj.CoreCompileInputs.cache
+C:\training\Clean-arch1\GitFresh.Clean.Domain\obj\Debug\net6.0\GitFresh.Clean.Domain.dll
+C:\training\Clean-arch1\GitFresh.Clean.Domain\obj\Debug\net6.0\refint\GitFresh.Clean.Domain.dll
+C:\training\Clean-arch1\GitFresh.Clean.Domain\obj\Debug\net6.0\GitFresh.Clean.Domain.pdb
+C:\training\Clean-arch1\GitFresh.Clean.Domain\obj\Debug\net6.0\ref\GitFresh.Clean.Domain.dll
