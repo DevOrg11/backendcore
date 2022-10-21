@@ -214,11 +214,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\training\\backendcore\\Backend.Clean.Api\\Backend.Clean.Api.csproj",
-      "projectName": "Backend.Clean.Api",
-      "projectPath": "C:\\training\\backendcore\\Backend.Clean.Api\\Backend.Clean.Api.csproj",
+      "projectUniqueName": "C:\\training\\backendcore\\Clean.Api\\Clean.Api.csproj",
+      "projectName": "Clean.Api",
+      "projectPath": "C:\\training\\backendcore\\Clean.Api\\Clean.Api.csproj",
       "packagesPath": "C:\\Users\\amarikkar\\.nuget\\packages\\",
-      "outputPath": "C:\\training\\backendcore\\Backend.Clean.Api\\obj\\",
+      "outputPath": "C:\\training\\backendcore\\Clean.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

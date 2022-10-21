@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X0j9K8giQ0svD/B3W/+ZzConU/urU+CjWHOXutt8oJzYJPta5j4X91SoTcn6zXN2aIFGvgmnsR6XdSE0AYvqxA==",
+  "dgSpecHash": "Qx5dZR60CWgMMYM1vTTm62IBW13Ts2tAF0k7zhIX6C6hx8MgaLf2uW3SjZkPiEx1ac31zUuYIbdM1Jj3hxo/EQ==",
   "success": true,
-  "projectFilePath": "C:\\training\\backendcore\\Backend.Clean.Api\\Backend.Clean.Api.csproj",
+  "projectFilePath": "C:\\training\\backendcore\\Clean.Api\\Clean.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\amarikkar\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\amarikkar\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
