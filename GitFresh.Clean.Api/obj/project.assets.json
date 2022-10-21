@@ -298,11 +298,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\training\\Clean-arch1\\GitFresh.Clean.Api\\GitFresh.Clean.Api.csproj",
+      "projectUniqueName": "C:\\training\\backendcore\\GitFresh.Clean.Api\\GitFresh.Clean.Api.csproj",
       "projectName": "GitFresh.Clean.Api",
-      "projectPath": "C:\\training\\Clean-arch1\\GitFresh.Clean.Api\\GitFresh.Clean.Api.csproj",
+      "projectPath": "C:\\training\\backendcore\\GitFresh.Clean.Api\\GitFresh.Clean.Api.csproj",
       "packagesPath": "C:\\Users\\amarikkar\\.nuget\\packages\\",
-      "outputPath": "C:\\training\\Clean-arch1\\GitFresh.Clean.Api\\obj\\",
+      "outputPath": "C:\\training\\backendcore\\GitFresh.Clean.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -322,11 +322,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\training\\Clean-arch1\\GitFresh.Clean.Application\\GitFresh.Clean.Application.csproj": {
-              "projectPath": "C:\\training\\Clean-arch1\\GitFresh.Clean.Application\\GitFresh.Clean.Application.csproj"
+            "C:\\training\\backendcore\\GitFresh.Clean.Application\\GitFresh.Clean.Application.csproj": {
+              "projectPath": "C:\\training\\backendcore\\GitFresh.Clean.Application\\GitFresh.Clean.Application.csproj"
             },
-            "C:\\training\\Clean-arch1\\GitFresh.Clean.Infrastructure\\GitFresh.Clean.Infrastructure.csproj": {
-              "projectPath": "C:\\training\\Clean-arch1\\GitFresh.Clean.Infrastructure\\GitFresh.Clean.Infrastructure.csproj"
+            "C:\\training\\backendcore\\GitFresh.Clean.Infrastructure\\GitFresh.Clean.Infrastructure.csproj": {
+              "projectPath": "C:\\training\\backendcore\\GitFresh.Clean.Infrastructure\\GitFresh.Clean.Infrastructure.csproj"
             }
           }
         }
@@ -358,7 +358,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

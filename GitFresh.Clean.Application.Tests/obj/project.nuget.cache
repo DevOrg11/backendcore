@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MnxszUer2fS4ZwcpEQDFdgFm0AS55pEyfh1x+SLs8gMEPfW4PyNPDx+1MzdHKFm/AnyxvT2tuHCTq0Ui8PCecw==",
+  "dgSpecHash": "PtblkgZriIlYazPCbTWmsYon38G+0+dO1M30i2u3BcmAH86wLGgP9v3jB3YRvSXlaVdFVrzJ1DYfLjPqIkIGcA==",
   "success": true,
-  "projectFilePath": "C:\\training\\Clean-arch1\\GitFresh.Clean.Application.Tests\\GitFresh.Clean.Application.Tests.csproj",
+  "projectFilePath": "C:\\training\\backendcore\\GitFresh.Clean.Application.Tests\\GitFresh.Clean.Application.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\amarikkar\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\amarikkar\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

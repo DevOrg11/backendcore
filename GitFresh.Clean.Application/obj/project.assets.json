@@ -261,11 +261,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\training\\Clean-arch1\\GitFresh.Clean.Application\\GitFresh.Clean.Application.csproj",
+      "projectUniqueName": "C:\\training\\backendcore\\GitFresh.Clean.Application\\GitFresh.Clean.Application.csproj",
       "projectName": "GitFresh.Clean.Application",
-      "projectPath": "C:\\training\\Clean-arch1\\GitFresh.Clean.Application\\GitFresh.Clean.Application.csproj",
+      "projectPath": "C:\\training\\backendcore\\GitFresh.Clean.Application\\GitFresh.Clean.Application.csproj",
       "packagesPath": "C:\\Users\\amarikkar\\.nuget\\packages\\",
-      "outputPath": "C:\\training\\Clean-arch1\\GitFresh.Clean.Application\\obj\\",
+      "outputPath": "C:\\training\\backendcore\\GitFresh.Clean.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -285,8 +285,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\training\\Clean-arch1\\GitFresh.Clean.Domain\\GitFresh.Clean.Domain.csproj": {
-              "projectPath": "C:\\training\\Clean-arch1\\GitFresh.Clean.Domain\\GitFresh.Clean.Domain.csproj"
+            "C:\\training\\backendcore\\GitFresh.Clean.Domain\\GitFresh.Clean.Domain.csproj": {
+              "projectPath": "C:\\training\\backendcore\\GitFresh.Clean.Domain\\GitFresh.Clean.Domain.csproj"
             }
           }
         }
@@ -321,7 +321,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
