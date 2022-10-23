@@ -5,7 +5,7 @@ name: .NET
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main" , "develop" ]
   pull_request:
     branches: [ "main" ]
 
@@ -30,10 +30,10 @@ jobs:
       run: dotnet test --no-restore --verbosity normal
       working-directory: ./Clean.Api
 
-    - name: Install Railway
-      run: npm i -g @railway/cli
+#    - name: Install Railway
+#      run: npm i -g @railway/cli
 
-    - name: Deploy
-      run: Railway up --service=tested-middle -d -verbose --environment=production
-      env:
-        RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+#    - name: Deploy
+#      run: Railway up --service=tested-middle -d -verbose --environment=production
+#      env:
+#        RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
