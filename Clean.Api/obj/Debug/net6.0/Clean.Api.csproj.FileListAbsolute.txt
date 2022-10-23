@@ -25,3 +25,9 @@ C:\training\backendcore\Clean.Api\obj\Debug\net6.0\refint\Clean.Api.dll
 C:\training\backendcore\Clean.Api\obj\Debug\net6.0\Clean.Api.pdb
 C:\training\backendcore\Clean.Api\obj\Debug\net6.0\Clean.Api.genruntimeconfig.cache
 C:\training\backendcore\Clean.Api\obj\Debug\net6.0\ref\Clean.Api.dll
+C:\training\backendcore\Clean.Api\bin\Debug\net6.0\Clean.Application.dll
+C:\training\backendcore\Clean.Api\bin\Debug\net6.0\Clean.Domain.dll
+C:\training\backendcore\Clean.Api\bin\Debug\net6.0\Clean.Infrastructure.dll
+C:\training\backendcore\Clean.Api\bin\Debug\net6.0\Clean.Application.pdb
+C:\training\backendcore\Clean.Api\bin\Debug\net6.0\Clean.Infrastructure.pdb
+C:\training\backendcore\Clean.Api\bin\Debug\net6.0\Clean.Domain.pdb
