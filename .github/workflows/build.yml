@@ -1,0 +1,39 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: .NET
+
+on:
+  push:
+    branches: [ "main" , "develop" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+      working-directory: ./Clean.Api
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+      working-directory: ./Clean.Api
+    - name: Test
+      run: dotnet test --no-restore --verbosity normal
+      working-directory: ./Clean.Api
+
+#    - name: Install Railway
+#      run: npm i -g @railway/cli
+
+#    - name: Deploy
+#      run: Railway up --service=tested-middle -d -verbose --environment=production
+#      env:
+#        RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
