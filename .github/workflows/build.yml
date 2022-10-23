@@ -25,5 +25,7 @@ jobs:
       working-directory: ./Clean.Api
     - name: Build
       run: dotnet build --configuration Release --no-restore
+      working-directory: ./Clean.Api
     - name: Test
       run: dotnet test --no-restore --verbosity normal
+      working-directory: ./Clean.Api
