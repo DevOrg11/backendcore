@@ -72,42 +72,6 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
-      },
-      "Clean.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Clean.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Clean.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Clean.Application.dll": {}
-        }
-      },
-      "Clean.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Clean.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Clean.Domain.dll": {}
-        }
-      },
-      "Clean.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Clean.Application": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Clean.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Clean.Infrastructure.dll": {}
-        }
       }
     }
   },
@@ -236,27 +200,12 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
-    },
-    "Clean.Application/1.0.0": {
-      "type": "project",
-      "path": "../Clean.Application/Clean.Application.csproj",
-      "msbuildProject": "../Clean.Application/Clean.Application.csproj"
-    },
-    "Clean.Domain/1.0.0": {
-      "type": "project",
-      "path": "../Clean.Domain/Clean.Domain.csproj",
-      "msbuildProject": "../Clean.Domain/Clean.Domain.csproj"
-    },
-    "Clean.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../Clean.Infrastructure/Clean.Infrastructure.csproj",
-      "msbuildProject": "../Clean.Infrastructure/Clean.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Clean.Application >= 1.0.0",
-      "Clean.Infrastructure >= 1.0.0",
+      "C:\\training\\backendcore\\Clean.Api\\Clean.Application\\Clean.Application.csproj",
+      "C:\\training\\backendcore\\Clean.Api\\Clean.Infrastructure\\Clean.Infrastructure.csproj",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -267,11 +216,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\training\\backendcore\\clean.api\\Clean.Api.csproj",
+      "projectUniqueName": "C:\\training\\backendcore\\Clean.Api\\Clean.Api.csproj",
       "projectName": "Clean.Api",
-      "projectPath": "C:\\training\\backendcore\\clean.api\\Clean.Api.csproj",
+      "projectPath": "C:\\training\\backendcore\\Clean.Api\\Clean.Api.csproj",
       "packagesPath": "C:\\Users\\amarikkar\\.nuget\\packages\\",
-      "outputPath": "C:\\training\\backendcore\\clean.api\\obj\\",
+      "outputPath": "C:\\training\\backendcore\\Clean.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -291,11 +240,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\training\\backendcore\\Clean.Application\\Clean.Application.csproj": {
-              "projectPath": "C:\\training\\backendcore\\Clean.Application\\Clean.Application.csproj"
+            "C:\\training\\backendcore\\Clean.Api\\Clean.Application\\Clean.Application.csproj": {
+              "projectPath": "C:\\training\\backendcore\\Clean.Api\\Clean.Application\\Clean.Application.csproj"
             },
-            "C:\\training\\backendcore\\Clean.Infrastructure\\Clean.Infrastructure.csproj": {
-              "projectPath": "C:\\training\\backendcore\\Clean.Infrastructure\\Clean.Infrastructure.csproj"
+            "C:\\training\\backendcore\\Clean.Api\\Clean.Infrastructure\\Clean.Infrastructure.csproj": {
+              "projectPath": "C:\\training\\backendcore\\Clean.Api\\Clean.Infrastructure\\Clean.Infrastructure.csproj"
             }
           }
         }
@@ -336,5 +285,25 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\training\\backendcore\\Clean.Api\\Clean.Application\\Clean.Application.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\training\\backendcore\\Clean.Api\\Clean.Application\\Clean.Application.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\training\\backendcore\\Clean.Api\\Clean.Infrastructure\\Clean.Infrastructure.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\training\\backendcore\\Clean.Api\\Clean.Infrastructure\\Clean.Infrastructure.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
