@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "furVYqAKbKuttJc3mQJthgGZFc8qiH6lCPNUKpcUKjRVvXkkOHU4WK13R5JVVcM9Pl0cTXIqkzxUIuJbQQUYvQ==",
+  "dgSpecHash": "dkp1oWqeMjYKcfXP8187DpKmwAf436kBN9HnCglFKGTdiqfNaLnY2jUXC4w13XhAOyBj/RHyC3wLhdu4gccuMA==",
   "success": false,
   "projectFilePath": "C:\\training\\backendcore\\Clean.Api\\Clean.Api.csproj",
   "expectedPackageFiles": [
@@ -15,8 +15,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\training\\backendcore\\Clean.Api\\Clean.Application\\Clean.Application.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\training\\backendcore\\Clean.Api\\Clean.Application\\Clean.Application.csproj",
+      "message": "Unable to find project 'C:\\training\\backendcore\\backendcore\\Clean.Infrastructure\\Clean.Infrastructure.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\training\\backendcore\\backendcore\\Clean.Infrastructure\\Clean.Infrastructure.csproj",
       "targetGraphs": [
         "net6.0"
       ]
@@ -24,8 +24,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\training\\backendcore\\Clean.Api\\Clean.Infrastructure\\Clean.Infrastructure.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\training\\backendcore\\Clean.Api\\Clean.Infrastructure\\Clean.Infrastructure.csproj",
+      "message": "Unable to find project 'C:\\training\\backendcore\\backendcore\\Clean.Application\\Clean.Application.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\training\\backendcore\\backendcore\\Clean.Application\\Clean.Application.csproj",
       "targetGraphs": [
         "net6.0"
       ]

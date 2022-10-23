@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-    <ProjectReference Include="./Clean.Application/Clean.Application.csproj" />
-    <ProjectReference Include="./Clean.Infrastructure/Clean.Infrastructure.csproj" />
+    <ProjectReference Include="../backendcore/Clean.Application/Clean.Application.csproj" />
+    <ProjectReference Include="../backendcore/Clean.Infrastructure/Clean.Infrastructure.csproj" />
   </ItemGroup>
 </Project>
