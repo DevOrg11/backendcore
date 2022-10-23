@@ -72,6 +72,42 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Clean.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Clean.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Clean.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clean.Application.dll": {}
+        }
+      },
+      "Clean.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Clean.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clean.Domain.dll": {}
+        }
+      },
+      "Clean.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Clean.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Clean.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clean.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -200,10 +236,27 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Clean.Application/1.0.0": {
+      "type": "project",
+      "path": "../Clean.Application/Clean.Application.csproj",
+      "msbuildProject": "../Clean.Application/Clean.Application.csproj"
+    },
+    "Clean.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Clean.Domain/Clean.Domain.csproj",
+      "msbuildProject": "../Clean.Domain/Clean.Domain.csproj"
+    },
+    "Clean.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Clean.Infrastructure/Clean.Infrastructure.csproj",
+      "msbuildProject": "../Clean.Infrastructure/Clean.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Clean.Application >= 1.0.0",
+      "Clean.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -237,7 +290,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\training\\backendcore\\Clean.Application\\Clean.Application.csproj": {
+              "projectPath": "C:\\training\\backendcore\\Clean.Application\\Clean.Application.csproj"
+            },
+            "C:\\training\\backendcore\\Clean.Infrastructure\\Clean.Infrastructure.csproj": {
+              "projectPath": "C:\\training\\backendcore\\Clean.Infrastructure\\Clean.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
