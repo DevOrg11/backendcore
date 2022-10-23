@@ -34,6 +34,6 @@ jobs:
       run: npm i -g @railway/cli
 
     - name: Deploy
-      run: Railway up
+      run: Railway up --service=tested-middle -d -verbose --environment=production
       env:
         RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
