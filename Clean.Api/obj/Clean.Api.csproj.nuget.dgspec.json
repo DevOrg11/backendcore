@@ -31,11 +31,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\training\\backendcore\\backendcore\\Clean.Application\\Clean.Application.csproj": {
-                "projectPath": "C:\\training\\backendcore\\backendcore\\Clean.Application\\Clean.Application.csproj"
+              "C:\\training\\backendcore\\Clean.Application\\Clean.Application.csproj": {
+                "projectPath": "C:\\training\\backendcore\\Clean.Application\\Clean.Application.csproj"
               },
-              "C:\\training\\backendcore\\backendcore\\Clean.Infrastructure\\Clean.Infrastructure.csproj": {
-                "projectPath": "C:\\training\\backendcore\\backendcore\\Clean.Infrastructure\\Clean.Infrastructure.csproj"
+              "C:\\training\\backendcore\\Clean.Infrastructure\\Clean.Infrastructure.csproj": {
+                "projectPath": "C:\\training\\backendcore\\Clean.Infrastructure\\Clean.Infrastructure.csproj"
               }
             }
           }
@@ -69,6 +69,185 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\training\\backendcore\\Clean.Application\\Clean.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\training\\backendcore\\Clean.Application\\Clean.Application.csproj",
+        "projectName": "Clean.Application",
+        "projectPath": "C:\\training\\backendcore\\Clean.Application\\Clean.Application.csproj",
+        "packagesPath": "C:\\Users\\amarikkar\\.nuget\\packages\\",
+        "outputPath": "C:\\training\\backendcore\\Clean.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\amarikkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\training\\backendcore\\Clean.Domain\\Clean.Domain.csproj": {
+                "projectPath": "C:\\training\\backendcore\\Clean.Domain\\Clean.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\training\\backendcore\\Clean.Domain\\Clean.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\training\\backendcore\\Clean.Domain\\Clean.Domain.csproj",
+        "projectName": "Clean.Domain",
+        "projectPath": "C:\\training\\backendcore\\Clean.Domain\\Clean.Domain.csproj",
+        "packagesPath": "C:\\Users\\amarikkar\\.nuget\\packages\\",
+        "outputPath": "C:\\training\\backendcore\\Clean.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\amarikkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\training\\backendcore\\Clean.Infrastructure\\Clean.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\training\\backendcore\\Clean.Infrastructure\\Clean.Infrastructure.csproj",
+        "projectName": "Clean.Infrastructure",
+        "projectPath": "C:\\training\\backendcore\\Clean.Infrastructure\\Clean.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\amarikkar\\.nuget\\packages\\",
+        "outputPath": "C:\\training\\backendcore\\Clean.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\amarikkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\training\\backendcore\\Clean.Application\\Clean.Application.csproj": {
+                "projectPath": "C:\\training\\backendcore\\Clean.Application\\Clean.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
