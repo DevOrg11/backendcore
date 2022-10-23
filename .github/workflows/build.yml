@@ -29,3 +29,11 @@ jobs:
     - name: Test
       run: dotnet test --no-restore --verbosity normal
       working-directory: ./Clean.Api
+
+    - name: Install Railway
+      run: npm i -g @railway/cli
+
+    - name: Deploy
+      run: Railway up
+      env:
+        RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
