@@ -21,4 +21,11 @@ public class ItemsController : ControllerBase
             return Ok(itemsFromService);
         }
 
+        [HttpPost]
+        public ActionResult<Item> PostItem(Item item)
+        {
+            var Item = _itemService.CreateItem(item);
+            return Ok(item);
+        }
+
     }
