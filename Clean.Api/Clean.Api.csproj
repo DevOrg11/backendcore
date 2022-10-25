@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="entityframework" Version="6.4.4" />
+    <PackageReference Include="microsoft.entityframeworkcore.design" Version="6.0.10">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="microsoft.entityframeworkcore.sqlite" Version="6.0.10" />
+    <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="6.0.10" />
+    <PackageReference Include="microsoft.entityframeworkcore.tools" Version="6.0.10">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     <ProjectReference Include="../Clean.Application/Clean.Application.csproj" />
     <ProjectReference Include="../Clean.Infrastructure/Clean.Infrastructure.csproj" />

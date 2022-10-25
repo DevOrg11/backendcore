@@ -9,6 +9,13 @@ public class ItemService : IItemService
     {
         _itemRepository = itemRepository;
     }
+
+    public Item CreateItem(Item item)
+    {
+        _itemRepository.CreateItem(item);
+        return item;
+    }
+
     public List<Item> GetAllItems()
     {
         var items = _itemRepository.GetAllItems();
