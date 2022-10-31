@@ -3,14 +3,15 @@
 
 ## Initial Setup
 
-1.Clone the repository to your local drive
-2.Build the entire solution
-3.If you are on vs code, go to terminal and navigate to Clean.Api folder (cd src/Clean.Api)
-4.Type in the migration code => dotnet ef database update
-5.This will create the database on your local drive.
-6.Run the program ( dotnet run )
+1. Clone the repository to your local drive
+2. Build the entire solution
+3. If you are on vs code, go to terminal and navigate to Clean.Api folder (cd src/Clean.Api)
+4. In vs code under terminal type in => dotnet tool install --global dotnet-ef first
+5. Type in the migration code => dotnet ef database update
+6. This will create the database on your local drive.
+7. Run the program ( dotnet run )
 
-Currently only two functions are implemented:
+## Currently only two functions are implemented:
 
 2.Get All items function => https://localhost:<port number>/items
 
