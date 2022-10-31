@@ -30,11 +30,11 @@ jobs:
           dotnet restore
           dotnet build --configuration Release
           dotnet publish -c Release -o '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/myapp' 
-      working-directory: '/src'
+      working-directory: './src'
       
     - name: Test
       run: dotnet test --no-restore --verbosity normal
-      working-directory: '/src'
+      working-directory: './src'
 
     - name: App Settings Variable Substitution
       uses: microsoft/variable-substitution@v1
