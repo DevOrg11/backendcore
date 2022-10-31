@@ -16,7 +16,7 @@ Currently only two functions are implemented:
 
 3.Post item function => https://localhost:<port number>/item
                         Under body place the below example format
-                        ```json
+                        ```JavaScript
                         {
                         "name": "Blender",
                         "category": 1,
