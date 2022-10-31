@@ -17,7 +17,7 @@ Currently only two functions are implemented:
 3.Post item function => https://localhost:<port number>/item
                         Under body place the below example format
 
-                        ```
+                        `
                         {
                         "name": "Blender",
                         "category": 1,
@@ -26,7 +26,7 @@ Currently only two functions are implemented:
                         "prise": 4200,
                         "availability": 1
                         }
-                        ```
+                        `
 
 4.You can use swagger to perform the above two => https://localhost:<port number>/swagger
 
