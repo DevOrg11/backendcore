@@ -35,12 +35,16 @@ jobs:
     - name: Test
       run: dotnet test --no-restore --verbosity normal
       working-directory: './src'
-
-
-
+      
+    - name: App Settings Variable Substitution
+      uses: microsoft/variable-substitution@v1
+      with:
+        files: '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/src/myapp/appsettings.json'
+      env:
+        ConnectionStrings.DefaultConnection: ${{ secrets.AZURE_DB_CONNECTIONSTRING }}
 
     - name: 'Run Azure webapp deploy action using publish profile credentials'
-      if: contains( github.ref, 'Main')
+      if: contains( github.ref, 'Develop')
       uses: azure/webapps-deploy@v2
       with: 
           app-name: ${{ env.AZURE_WEBAPP_NAME }} # Replace with your app name
