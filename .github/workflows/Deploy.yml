@@ -44,7 +44,7 @@ jobs:
         ConnectionStrings.DefaultConnection: ${{ secrets.AZURE_DB_CONNECTIONSTRING }}
 
     - name: 'Run Azure webapp deploy action using publish profile credentials'
-      if: contains( github.ref, 'Develop')
+      if: contains( github.ref, 'Main')
       uses: azure/webapps-deploy@v2
       with: 
           app-name: ${{ env.AZURE_WEBAPP_NAME }} # Replace with your app name
