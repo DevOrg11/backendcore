@@ -33,7 +33,7 @@ jobs:
       working-directory: './src'
       
     - name: Test
-      run: dotnet test --no-restore --verbosity normal --logger "trx;LogFileName-test-results.trx" || true
+      run: dotnet test --no-restore --verbosity normal --logger "trx;logfilename=testResults.trx" || true
       working-directory: './src'
     
     - name: Test Report
