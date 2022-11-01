@@ -7,7 +7,7 @@ on:
   push:
     branches: [ "main", "develop" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "develop" ]
 
 env:
   AZURE_WEBAPP_NAME: backendcore    # set this to your application's name

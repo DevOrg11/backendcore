@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clean.Infrastructure", "Cle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clean.Api", "Clean.Api\Clean.Api.csproj", "{2433D0DA-C52C-4E3A-B95F-BC546CF4E33A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clean.Application.Tests", "clean.application.tests\Clean.Application.Tests.csproj", "{A8DEA265-DF23-423C-944C-DDBA578C9F3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clean.Application.Tests", "Clean.Application.Tests\Clean.Application.Tests.csproj", "{A8DEA265-DF23-423C-944C-DDBA578C9F3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
