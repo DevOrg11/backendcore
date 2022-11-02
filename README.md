@@ -1,5 +1,15 @@
 # BackendCore: Clean Architecture Implementation with .NET Core
+## This projects main purpose is to follow the concepts of Clean/Onion/Hexagonal Architecture
 
+This is a .net 6 solution consisting of 4 layers:
+1. Presentation layer - Is a .net API project used as an interface to interact with the user (Clean.Api)
+2. Application layer - Is a class library where the service layer exists (Clean.Application)
+
+      NOTE: Unit testing will be conducted for this layer (Service methods) in a separate project (Clean.Application.Tests)
+3. Domain layer - Is a class library that only contains entities and has no dependancies (Clean.Domain)
+4. Infrastrcture layer - Is a class library where the DBcotext and the repository implementations exists (Clean.Infrastructure)
+
+      NOTE: Unit testing will also be conducted here. This project is using entity framework.
 
 ## Initial Setup
 
@@ -17,7 +27,7 @@
 
 3.Post item function => https://localhost:<port number>/item
                         Under body place the below example format
-
+```json
                         {
                         "name": "Blender",
                         "category": 1,
@@ -26,7 +36,7 @@
                         "prise": 4200,
                         "availability": 1
                         }
-                        
+ ```                       
 
 4.You can use swagger to perform the above two => https://localhost:<port number>/swagger
 
