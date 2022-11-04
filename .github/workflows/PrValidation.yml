@@ -3,9 +3,7 @@
 
 name: .NET
 
-on:
-  pull_request:
-    branches: ["develop"]
+on: pull_request
 
 env:
   AZURE_WEBAPP_NAME: backendcore # set this to your application's name
