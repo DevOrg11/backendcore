@@ -1,0 +1,43 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: .NET
+
+on:
+  pull_request:
+    branches: ["develop"]
+
+env:
+  AZURE_WEBAPP_NAME: backendcore # set this to your application's name
+  AZURE_WEBAPP_PACKAGE_PATH: "." # set this to the path to your web app project, defaults to the repository root
+  DOTNET_VERSION: "6.0.x" # set this to the dot net version to use
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: Build In Debug Mode
+        run: |
+          dotnet restore
+          dotnet build --configuration Debug
+          dotnet publish -c Debug -o '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/myapp'
+        working-directory: "./src"
+
+      - name: Test
+        run: dotnet test --no-restore --verbosity normal --logger "trx;logfilename=testResults.trx" || true
+        working-directory: "./src"
+
+      - name: Test Report
+        uses: dorny/test-reporter@v1
+        if: always()
+        with:
+          name: DotNet Tests
+          path: "**/testResults.trx"
+          reporter: dotnet-trx
+          fail-on-error: true
