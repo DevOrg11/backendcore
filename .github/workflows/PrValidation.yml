@@ -33,7 +33,7 @@ jobs:
 
       - name: Test Report
         uses: dorny/test-reporter@v1
-        if: failure()
+        if: always()
         with:
           name: DotNet Tests
           path: "**/testResults.trx"
